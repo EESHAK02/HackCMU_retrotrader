@@ -11,5 +11,4 @@ RetroTrader is a **retro-styled financial news analyzer** built with **Streamlit
 
 A glimpse into our RetroTrader
 
-![RetroTrader Screenshot](<img width="1655" height="1320" alt="Screenshot 2025-09-13 160301" src="https://github.com/user-attachments/assets/a7f51500-8064-4461-a188-12b360df1513" />
-)
+![RetroTrader Screenshot](https://github.com/EESHAK02/HackCMU_retrotrader/blob/main/hackcmu.png)
