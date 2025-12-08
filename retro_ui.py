@@ -1,57 +1,3 @@
-# import streamlit as st
-# import plotly.graph_objects as go
-# import pandas as pd
-# import yfinance as yf
-
-# def apply_retro_style():
-#     st.markdown("""
-#         <style>
-#             body {
-#                 background-color: black;
-#                 color: #00FF00;
-#                 font-family: 'Courier New', monospace;
-#             }
-#             .stButton>button {
-#                 background-color: black;
-#                 color: #00FF00;
-#                 border: 2px solid #00FF00;
-#                 font-family: 'Courier New', monospace;
-#             }
-#             .stTextInput>div>input {
-#                 background-color: black;
-#                 color: #00FF00;
-#                 border: 2px solid #00FF00;
-#                 font-family: 'Courier New', monospace;
-#             }
-#             .stTextArea>div>textarea {
-#                 background-color: black;
-#                 color: #00FF00;
-#                 border: 2px solid #00FF00;
-#                 font-family: 'Courier New', monospace;
-#             }
-#         </style>
-#     """, unsafe_allow_html=True)
-
-# def render_summary_box(summary_text: str):
-#     html_text = summary_text.replace("\n", "<br>")
-#     st.markdown(
-#         f"""
-#         <div style="
-#             background-color: #111;
-#             color: #0f0;
-#             padding: 15px;
-#             border-radius: 5px;
-#             font-family: 'Courier New', monospace;
-#             font-size: 14px;
-#             max-height: 220px;
-#             overflow-y: auto;
-#         ">
-#         {html_text}
-#         </div>
-#         """,
-#         unsafe_allow_html=True
-#     )
-# retro_ui.py — UI-only helpers for RetroTrader (retro CRT style)
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
@@ -211,6 +157,7 @@ def render_competitors_table(competitors: list):
         df[['name','ticker','price','Trend','sector','industry']].to_html(index=False),
         unsafe_allow_html=True
     )
+
 
 
 
