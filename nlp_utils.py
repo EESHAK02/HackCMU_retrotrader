@@ -5,7 +5,7 @@ import spacy
 from collections import Counter
 from data_utils import get_ticker
 
-NEWS_API_KEY = "090f7d9ed44a41f4a8e982e5298ff9aa"
+NEWS_API_KEY = ""
 
 def load_models():
     summarizer = pipeline("summarization", model="./models/retro_summarizer")
@@ -54,6 +54,7 @@ def detect_main_company(article_text: str) -> str:
     except Exception as e:
         print(f"Error detecting company: {e}")
         return None
+
 
 
 
